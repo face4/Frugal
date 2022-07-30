@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "title": "manga",
+        "volume": 1,
+        "price": 500
+    },
+    {
+        "id": 2,
+        "title": "fewahoi",
+        "volume": 10,
+        "price": 770
+    }
+]
