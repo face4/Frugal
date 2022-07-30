@@ -4,15 +4,12 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import BooksProvider from './BooksProvider.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BooksProvider>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </BooksProvider>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

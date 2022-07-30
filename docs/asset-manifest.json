@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Frugal/static/css/main.0e170fb8.css",
-    "main.js": "/Frugal/static/js/main.d182cda5.js",
+    "main.js": "/Frugal/static/js/main.e59e1d0c.js",
     "static/js/787.7275e366.chunk.js": "/Frugal/static/js/787.7275e366.chunk.js",
     "index.html": "/Frugal/index.html",
     "main.0e170fb8.css.map": "/Frugal/static/css/main.0e170fb8.css.map",
-    "main.d182cda5.js.map": "/Frugal/static/js/main.d182cda5.js.map",
+    "main.e59e1d0c.js.map": "/Frugal/static/js/main.e59e1d0c.js.map",
     "787.7275e366.chunk.js.map": "/Frugal/static/js/787.7275e366.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e170fb8.css",
-    "static/js/main.d182cda5.js"
+    "static/js/main.e59e1d0c.js"
   ]
 }
