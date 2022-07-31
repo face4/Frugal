@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+span {
+  display: inline-block;
+  width: 5em;
+}
+
+input.volume {
+  width: 5em;
+}

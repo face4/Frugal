@@ -1,0 +1,14 @@
+[
+    {
+        "title": "test",
+        "from": 1,
+        "to": 18,
+        "price": 540
+    },
+    {
+        "title": "tmp",
+        "from": 1,
+        "to": 12,
+        "price": 770
+    }
+]
