@@ -1,11 +1,13 @@
+import { FaAndroid, FaApple } from 'react-icons/fa';
+
 export default function PointForm({ os }) {
     return (
         <form>
-            <span><label>{os}</label></span>
+            <span><label>{os === "Android" ? <FaAndroid /> : <FaApple />}</label></span>
             <input
                 type="number"
                 name={os}
-                placeholder={5000} /> pts
+                placeholder={0} /> pts
         </form>
     );
 }

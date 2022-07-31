@@ -2,7 +2,8 @@ import './App.css';
 import Title from './Title';
 import PointForms from './PointForms';
 import Books from './Books'
-import BooksProvider from './BooksProvider';
+import Executor from './Executor';
+import Results from './Results';
 
 function App() {
   return (
@@ -13,9 +14,11 @@ function App() {
       <PointForms />
       <hr />
 
-      <BooksProvider>
-        <Books />
-      </BooksProvider>
+      <Books />
+
+      <Executor />
+
+      <Results />
     </div>
   );
 }

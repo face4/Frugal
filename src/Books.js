@@ -17,7 +17,9 @@ export default function Books() {
         <>
             <h1>Books</h1>
             <BookForm updateBooks={updateBooks} />
-            <BooksTable data={books} />
+            <div className="container">
+                <BooksTable data={books} />
+            </div>
         </>
     )
 }

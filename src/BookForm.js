@@ -20,7 +20,6 @@ export default function BookForm({ updateBooks }) {
                 type="text"
                 onChange={event => setBook({ ...book, title: event.target.value })}
             />
-            <br />
 
             <span><label>Volume</label></span>
             <input
@@ -29,19 +28,18 @@ export default function BookForm({ updateBooks }) {
                 onChange={event => setBook({ ...book, from: event.target.value })}
             />
 
-            <label>〜<input
+            <label>〜</label>
+            <input
                 type="number"
                 className="volume"
                 onChange={event => setBook({ ...book, to: event.target.value })}
-            /></label>
-            <br />
+            />
 
             <span><label>Price</label></span>
             <input
                 type="number"
                 onChange={event => setBook({ ...book, price: event.target.value })}
             />
-            <br />
 
             <button type="submit" className="btn btn-primary">
                 Add
