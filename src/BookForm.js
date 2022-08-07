@@ -4,7 +4,7 @@ export default function BookForm({ updateBooks }) {
     const [book, setBook] = useState({
         title: "title",
         from: 1,
-        to: 2,
+        to: 1,
         price: 1000
     });
 

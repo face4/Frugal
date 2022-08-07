@@ -7,7 +7,8 @@ export default function PointForm({ os }) {
             <input
                 type="number"
                 name={os}
-                placeholder={0} /> pts
+                placeholder={0}
+            /> pts
         </form>
     );
 }
